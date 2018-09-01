@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	//a number of tests
+	//TestCase
 	int N;
 	cin >> N;
 	map <char, double> mymap;
@@ -16,10 +16,10 @@ int main()
 	int len;
 	while (N--) {
 		total = 0;
-		//the number of paid characters;
+		//주어진 문자 개수
 		int K;
 		cin >> K;
-		//table of paid characters and its values
+		//문자 개수 하나당의 가치
 		for (int i = 1; i <= K; i++) {
 			char c; double v;
 			cin >> c >> v;
